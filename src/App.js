@@ -21,9 +21,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <SideBar />
-        <Content />
         <button onClick={this.sendData}>testing</button>
       </div>
     );
